@@ -1,0 +1,13 @@
+.Board {
+    padding: 20px;
+    border: 2px solid black;
+
+}
+
+.Board_inner {
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(64px*8);
+    height: calc(64px*8);
+    border: 2px solid black;
+}

@@ -1,0 +1,35 @@
+.Cell {
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Cell--black {
+    background-color: rgb(95, 175, 48);
+}
+
+.Cell--white {
+    background-color: rgb(176, 233, 143);
+}
+
+.Cell--selected {
+    background-color: aquamarine;
+}
+
+.Cell img {
+    height: 48px;
+    width: 48px; 
+}
+
+.Cell--available {
+    background-color: brown;
+}
+
+.Cell--available_dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 6px;
+    background-color: brown;
+}
